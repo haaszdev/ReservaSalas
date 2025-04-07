@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   usermicroservice:
-    build: UserMicroService/user
+    build: User/user
     ports:
       - "8081:8081"
     depends_on:
@@ -14,7 +14,7 @@ services:
       - microServicesNet
 
   salamicroservice:
-    build: SalaMicroService/sala
+    build: Sala/sala
     ports:
       - "8082:8082"
     depends_on:
@@ -27,7 +27,7 @@ services:
       - microServicesNet
 
   reservamicroservice:
-    build: ReservaMicroService/reserva
+    build: Reserva/reserva
     ports:
       - "8083:8083"
     depends_on:
