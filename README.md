@@ -48,22 +48,6 @@ docker-compose up -d --build
 
 ## 🧪 Testando as APIs
 
-### **📌 SalaService (`8082`)**
-#### ➕ Criar uma Sala
-**POST** `http://localhost:8082/salas`
-```json
-{
-  "nome": "Sala Teste",
-  "capacidade": 6
-}
-```
-
-
-#### 📄 Listar Salas
-**GET** `http://localhost:8082/salas`
-
----
-
 ### **📌 UserService (`8081`)**
 #### ➕ Criar um Usuário**
 **POST** `http://localhost:8081/users`
@@ -85,6 +69,21 @@ docker-compose up -d --build
 
 #### 📄 Listar Usuários
 **GET** `http://localhost:8081/users`
+
+---
+
+### **📌 SalaService (`8082`)**
+#### ➕ Criar uma Sala
+**POST** `http://localhost:8082/salas`
+```json
+{
+  "nome": "Sala Teste",
+  "capacidade": 6
+}
+```
+
+#### 📄 Listar Salas
+**GET** `http://localhost:8082/salas`
 
 ---
 
