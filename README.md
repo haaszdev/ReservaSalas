@@ -14,15 +14,15 @@ Este projeto é um sistema de reserva de salas desenvolvido com base em microser
 
 ```
 reserva-salas/
-├── SalaMicroService/
+├── Sala/
 │   └── sala/
 │       ├── Dockerfile
 │       └── src/
-├── UserMicroService/
+├── User/
 │   └── user/
 │       ├── Dockerfile
 │       └── src/
-├── ReservaMicroService/
+├── Reserva/
 │   └── reserva/
 │       ├── Dockerfile
 │       └── src/
