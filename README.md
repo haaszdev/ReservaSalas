@@ -5,10 +5,10 @@ Este projeto é um sistema de reserva de salas desenvolvido com base em microser
 ## ⚙️ Tecnologias Utilizadas
 
 - Java 17
-- Spring Boot
-- PostgreSQL
-- Docker
 - Adminer
+- Spring Boot
+- Docker
+- PostgreSQL
   
 ## 📁 Estrutura do Projeto
 
